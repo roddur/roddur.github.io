@@ -25,7 +25,6 @@
 
         <!-- Sidebar -->
         <div id="page-content-wrapper">
-            <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
             <div class="container-fluid center" id='AboutMe'>
                 <img class="rounded-circle img-fluid mx-auto d-block py-5" src="me.png">
                 <h2>
@@ -54,7 +53,7 @@
                 </p>
             </div>
 
-            <div>
+            <div id="page-content-wrapper" class="container-fluid center">
                 <p> <Strong> You can download my CV from here.</Strong></p>
                 <a class="btn btn-primary" href="CV.pdf" role="button">CV of Mrinmoy Saha Roddur</a>
 
@@ -86,12 +85,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
     <!-- Menu Toggle Script -->
-    <script>
-        $("#menu-toggle").click(function (e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-    </script>
 
 </body>
 
